@@ -17,21 +17,21 @@
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleVersion</key>
-	<string>____BundleVersion____</string>
+	<string>2</string>
 	<key>CFBundleShortVersionString</key>
-	<string>____BundleVersionString____</string>
+	<string>0.1 beta</string>
 	<key>UpdateFeedURL</key>
-	<string>____OnlineUrlToThisPlist____</string>
+	<string>https://raw.githubusercontent.com/FontDevPascal/ShowSidebearings/master/ShowSidebearings.glyphsReporter/Contents/Info.plist</string>
 	<key>productPageURL</key>
-	<string>____ProductPageURL____</string>
+	<string>https://github.com/FontDevPascal/ShowSidebearings</string>
 	<key>productReleaseNotes</key>
-	<string>____LatestReleaseNotes____</string>
+	<string>Beta Test</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright, ____Developer____, ____YEAR____</string>
+	<string>Copyright, Pascal Renger, 2016</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
-	<string>____PluginClassName____</string>
+	<string>ShowSidebearings</string>
 	<key>PyMainFileNames</key>
 	<array>
 		<string>../MacOS/main.py</string>

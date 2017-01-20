@@ -17,8 +17,9 @@ from GlyphsApp.plugins import *
 class ShowSidebearings(ReporterPlugin):
 
 	def settings(self):
-		self.menuName = 'Show Sidebearings'
+		self.menuName = 'Sidebearings'
 
 	def foreground(self, layer):
 		NSColor.redColor().set()
-		NSMakeRect(10, 10, 20, 20)
+		rectToBeFilled = NSMakeRect(10, 10, 20, 20)
+		NSBezierPath.fillRect_(rectToBeFilled)
